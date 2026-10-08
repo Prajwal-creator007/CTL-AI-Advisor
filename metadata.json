@@ -1,0 +1,6 @@
+{
+  "name": "AegisCTL - Source-Grounded Decision Support for CTL Controllers",
+  "description": "Secure, source-grounded AI decision support system for Control Testing & Lifecycle (CTL) controllers. Policy search, standards, procedures, evidence verification, cross-document requirement synthesis, and human-in-the-loop decision workspace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

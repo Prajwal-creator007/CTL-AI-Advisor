@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AegisCTL - Source-Grounded Decision Support for CTL Controllers</title>
+    <meta name="description" content="Secure, source-grounded AI decision support system for Control Testing & Lifecycle (CTL) controllers. Policy search, standards, procedures, evidence verification, cross-document requirement synthesis, and human-in-the-loop decision workspace." />
+    <meta property="og:title" content="AegisCTL - Source-Grounded Decision Support for CTL Controllers" />
+    <meta property="og:description" content="Secure, source-grounded AI decision support system for Control Testing & Lifecycle (CTL) controllers. Policy search, standards, procedures, evidence verification, cross-document requirement synthesis, and human-in-the-loop decision workspace." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          const saved = localStorage.getItem('aegisctl_theme');
+          const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+          if (saved === 'light' || (!saved && prefersLight)) {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
